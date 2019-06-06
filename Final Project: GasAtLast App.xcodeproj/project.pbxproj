@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6B3F0D22A9970B00D6E2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F0C22A9970B00D6E2DE /* AppDelegate.swift */; };
+		BB6B3F0F22A9970B00D6E2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F0E22A9970B00D6E2DE /* ViewController.swift */; };
+		BB6B3F1222A9970B00D6E2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3F1022A9970B00D6E2DE /* Main.storyboard */; };
+		BB6B3F1422A9970C00D6E2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3F1322A9970C00D6E2DE /* Assets.xcassets */; };
+		BB6B3F1722A9970C00D6E2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3F1522A9970C00D6E2DE /* LaunchScreen.storyboard */; };
+		BB6B3F2222A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F2122A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift */; };
+		BB6B3F2D22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F2C22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6B3F1E22A9970C00D6E2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6B3F0122A9970B00D6E2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6B3F0822A9970B00D6E2DE;
+			remoteInfo = "Final Project: GasAtLast App";
+		};
+		BB6B3F2922A9970C00D6E2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6B3F0122A9970B00D6E2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6B3F0822A9970B00D6E2DE;
+			remoteInfo = "Final Project: GasAtLast App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6B3F0922A9970B00D6E2DE /* Final Project: GasAtLast App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project: GasAtLast App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6B3F0C22A9970B00D6E2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB6B3F0E22A9970B00D6E2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB6B3F1122A9970B00D6E2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6B3F1322A9970C00D6E2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6B3F1622A9970C00D6E2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB6B3F1822A9970C00D6E2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6B3F1D22A9970C00D6E2DE /* Final Project: GasAtLast AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project: GasAtLast AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6B3F2122A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__GasAtLast_AppTests.swift; sourceTree = "<group>"; };
+		BB6B3F2322A9970C00D6E2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6B3F2822A9970C00D6E2DE /* Final Project: GasAtLast AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project: GasAtLast AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6B3F2C22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__GasAtLast_AppUITests.swift; sourceTree = "<group>"; };
+		BB6B3F2E22A9970C00D6E2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6B3F0622A9970B00D6E2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F1A22A9970C00D6E2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F2522A9970C00D6E2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6B3F0022A9970B00D6E2DE = {
+			isa = PBXGroup;
+			children = (
+				BB6B3F0B22A9970B00D6E2DE /* Final Project: GasAtLast App */,
+				BB6B3F2022A9970C00D6E2DE /* Final Project: GasAtLast AppTests */,
+				BB6B3F2B22A9970C00D6E2DE /* Final Project: GasAtLast AppUITests */,
+				BB6B3F0A22A9970B00D6E2DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6B3F0A22A9970B00D6E2DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6B3F0922A9970B00D6E2DE /* Final Project: GasAtLast App.app */,
+				BB6B3F1D22A9970C00D6E2DE /* Final Project: GasAtLast AppTests.xctest */,
+				BB6B3F2822A9970C00D6E2DE /* Final Project: GasAtLast AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6B3F0B22A9970B00D6E2DE /* Final Project: GasAtLast App */ = {
+			isa = PBXGroup;
+			children = (
+				BB6B3F0C22A9970B00D6E2DE /* AppDelegate.swift */,
+				BB6B3F0E22A9970B00D6E2DE /* ViewController.swift */,
+				BB6B3F1022A9970B00D6E2DE /* Main.storyboard */,
+				BB6B3F1322A9970C00D6E2DE /* Assets.xcassets */,
+				BB6B3F1522A9970C00D6E2DE /* LaunchScreen.storyboard */,
+				BB6B3F1822A9970C00D6E2DE /* Info.plist */,
+			);
+			path = "Final Project: GasAtLast App";
+			sourceTree = "<group>";
+		};
+		BB6B3F2022A9970C00D6E2DE /* Final Project: GasAtLast AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6B3F2122A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift */,
+				BB6B3F2322A9970C00D6E2DE /* Info.plist */,
+			);
+			path = "Final Project: GasAtLast AppTests";
+			sourceTree = "<group>";
+		};
+		BB6B3F2B22A9970C00D6E2DE /* Final Project: GasAtLast AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6B3F2C22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift */,
+				BB6B3F2E22A9970C00D6E2DE /* Info.plist */,
+			);
+			path = "Final Project: GasAtLast AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6B3F0822A9970B00D6E2DE /* Final Project: GasAtLast App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6B3F3122A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast App" */;
+			buildPhases = (
+				BB6B3F0522A9970B00D6E2DE /* Sources */,
+				BB6B3F0622A9970B00D6E2DE /* Frameworks */,
+				BB6B3F0722A9970B00D6E2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project: GasAtLast App";
+			productName = "Final Project: GasAtLast App";
+			productReference = BB6B3F0922A9970B00D6E2DE /* Final Project: GasAtLast App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6B3F1C22A9970C00D6E2DE /* Final Project: GasAtLast AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6B3F3422A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppTests" */;
+			buildPhases = (
+				BB6B3F1922A9970C00D6E2DE /* Sources */,
+				BB6B3F1A22A9970C00D6E2DE /* Frameworks */,
+				BB6B3F1B22A9970C00D6E2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6B3F1F22A9970C00D6E2DE /* PBXTargetDependency */,
+			);
+			name = "Final Project: GasAtLast AppTests";
+			productName = "Final Project: GasAtLast AppTests";
+			productReference = BB6B3F1D22A9970C00D6E2DE /* Final Project: GasAtLast AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB6B3F2722A9970C00D6E2DE /* Final Project: GasAtLast AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6B3F3722A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppUITests" */;
+			buildPhases = (
+				BB6B3F2422A9970C00D6E2DE /* Sources */,
+				BB6B3F2522A9970C00D6E2DE /* Frameworks */,
+				BB6B3F2622A9970C00D6E2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6B3F2A22A9970C00D6E2DE /* PBXTargetDependency */,
+			);
+			name = "Final Project: GasAtLast AppUITests";
+			productName = "Final Project: GasAtLast AppUITests";
+			productReference = BB6B3F2822A9970C00D6E2DE /* Final Project: GasAtLast AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6B3F0122A9970B00D6E2DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yomel Torres";
+				TargetAttributes = {
+					BB6B3F0822A9970B00D6E2DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BB6B3F1C22A9970C00D6E2DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BB6B3F0822A9970B00D6E2DE;
+					};
+					BB6B3F2722A9970C00D6E2DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BB6B3F0822A9970B00D6E2DE;
+					};
+				};
+			};
+			buildConfigurationList = BB6B3F0422A9970B00D6E2DE /* Build configuration list for PBXProject "Final Project: GasAtLast App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6B3F0022A9970B00D6E2DE;
+			productRefGroup = BB6B3F0A22A9970B00D6E2DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6B3F0822A9970B00D6E2DE /* Final Project: GasAtLast App */,
+				BB6B3F1C22A9970C00D6E2DE /* Final Project: GasAtLast AppTests */,
+				BB6B3F2722A9970C00D6E2DE /* Final Project: GasAtLast AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6B3F0722A9970B00D6E2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B3F1722A9970C00D6E2DE /* LaunchScreen.storyboard in Resources */,
+				BB6B3F1422A9970C00D6E2DE /* Assets.xcassets in Resources */,
+				BB6B3F1222A9970B00D6E2DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F1B22A9970C00D6E2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F2622A9970C00D6E2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6B3F0522A9970B00D6E2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B3F0F22A9970B00D6E2DE /* ViewController.swift in Sources */,
+				BB6B3F0D22A9970B00D6E2DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F1922A9970C00D6E2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B3F2222A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6B3F2422A9970C00D6E2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B3F2D22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6B3F1F22A9970C00D6E2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6B3F0822A9970B00D6E2DE /* Final Project: GasAtLast App */;
+			targetProxy = BB6B3F1E22A9970C00D6E2DE /* PBXContainerItemProxy */;
+		};
+		BB6B3F2A22A9970C00D6E2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6B3F0822A9970B00D6E2DE /* Final Project: GasAtLast App */;
+			targetProxy = BB6B3F2922A9970C00D6E2DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB6B3F1022A9970B00D6E2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6B3F1122A9970B00D6E2DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB6B3F1522A9970C00D6E2DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6B3F1622A9970C00D6E2DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6B3F2F22A9970C00D6E2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6B3F3022A9970C00D6E2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6B3F3222A9970C00D6E2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6B3F3322A9970C00D6E2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB6B3F3522A9970C00D6E2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project: GasAtLast App.app/Final Project: GasAtLast App";
+			};
+			name = Debug;
+		};
+		BB6B3F3622A9970C00D6E2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project: GasAtLast App.app/Final Project: GasAtLast App";
+			};
+			name = Release;
+		};
+		BB6B3F3822A9970C00D6E2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project: GasAtLast App";
+			};
+			name = Debug;
+		};
+		BB6B3F3922A9970C00D6E2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project: GasAtLast AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phidgets.Final-Project--GasAtLast-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project: GasAtLast App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6B3F0422A9970B00D6E2DE /* Build configuration list for PBXProject "Final Project: GasAtLast App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6B3F2F22A9970C00D6E2DE /* Debug */,
+				BB6B3F3022A9970C00D6E2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6B3F3122A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6B3F3222A9970C00D6E2DE /* Debug */,
+				BB6B3F3322A9970C00D6E2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6B3F3422A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6B3F3522A9970C00D6E2DE /* Debug */,
+				BB6B3F3622A9970C00D6E2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6B3F3722A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6B3F3822A9970C00D6E2DE /* Debug */,
+				BB6B3F3922A9970C00D6E2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6B3F0122A9970B00D6E2DE /* Project object */;
+}
