@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6F6C33E80A2398D1773EA2 /* Pods_Final_Project__GasAtLast_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6035FA3EDCAAC55A53DCB315 /* Pods_Final_Project__GasAtLast_AppTests.framework */; };
+		9F32FAF5138C565F93481178 /* Pods_Final_Project__GasAtLast_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CD8A1C70DBB1536C7BA240 /* Pods_Final_Project__GasAtLast_AppUITests.framework */; };
 		BB6B3F0D22A9970B00D6E2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F0C22A9970B00D6E2DE /* AppDelegate.swift */; };
 		BB6B3F0F22A9970B00D6E2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F0E22A9970B00D6E2DE /* ViewController.swift */; };
 		BB6B3F1222A9970B00D6E2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3F1022A9970B00D6E2DE /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		BB6B3F1722A9970C00D6E2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6B3F1522A9970C00D6E2DE /* LaunchScreen.storyboard */; };
 		BB6B3F2222A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F2122A9970C00D6E2DE /* Final_Project__GasAtLast_AppTests.swift */; };
 		BB6B3F2D22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B3F2C22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift */; };
+		F92F0D6C914A054489476D67 /* Pods_Final_Project__GasAtLast_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCB522DF78746608E452D69 /* Pods_Final_Project__GasAtLast_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CCB522DF78746608E452D69 /* Pods_Final_Project__GasAtLast_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Project__GasAtLast_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6035FA3EDCAAC55A53DCB315 /* Pods_Final_Project__GasAtLast_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Project__GasAtLast_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4F436C98E954D2450A8BC4 /* Pods-Final Project: GasAtLast AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast AppUITests/Pods-Final Project: GasAtLast AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AD5C51AADC04601DA89E8A6 /* Pods-Final Project: GasAtLast App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast App.debug.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App.debug.xcconfig"; sourceTree = "<group>"; };
+		9053BE1AB5BC75357FF9CCFB /* Pods-Final Project: GasAtLast AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast AppTests/Pods-Final Project: GasAtLast AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB6B3F0922A9970B00D6E2DE /* Final Project: GasAtLast App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project: GasAtLast App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6B3F0C22A9970B00D6E2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB6B3F0E22A9970B00D6E2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		BB6B3F2822A9970C00D6E2DE /* Final Project: GasAtLast AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project: GasAtLast AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6B3F2C22A9970C00D6E2DE /* Final_Project__GasAtLast_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__GasAtLast_AppUITests.swift; sourceTree = "<group>"; };
 		BB6B3F2E22A9970C00D6E2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CDD1B47F74DE7F5FE83DAE /* Pods-Final Project: GasAtLast AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast AppUITests/Pods-Final Project: GasAtLast AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2CD8A1C70DBB1536C7BA240 /* Pods_Final_Project__GasAtLast_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Project__GasAtLast_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B68E0ABC51A532571AC879 /* Pods-Final Project: GasAtLast App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast App.release.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App.release.xcconfig"; sourceTree = "<group>"; };
+		F5A4E9BB8C46AB6EB5A9CBE5 /* Pods-Final Project: GasAtLast AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Project: GasAtLast AppTests.release.xcconfig"; path = "Target Support Files/Pods-Final Project: GasAtLast AppTests/Pods-Final Project: GasAtLast AppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92F0D6C914A054489476D67 /* Pods_Final_Project__GasAtLast_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6F6C33E80A2398D1773EA2 /* Pods_Final_Project__GasAtLast_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F32FAF5138C565F93481178 /* Pods_Final_Project__GasAtLast_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F1D3FDE934C6B274244C7D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5C51AADC04601DA89E8A6 /* Pods-Final Project: GasAtLast App.debug.xcconfig */,
+				F0B68E0ABC51A532571AC879 /* Pods-Final Project: GasAtLast App.release.xcconfig */,
+				9053BE1AB5BC75357FF9CCFB /* Pods-Final Project: GasAtLast AppTests.debug.xcconfig */,
+				F5A4E9BB8C46AB6EB5A9CBE5 /* Pods-Final Project: GasAtLast AppTests.release.xcconfig */,
+				C5CDD1B47F74DE7F5FE83DAE /* Pods-Final Project: GasAtLast AppUITests.debug.xcconfig */,
+				6A4F436C98E954D2450A8BC4 /* Pods-Final Project: GasAtLast AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F76F64BB07AE900DBD3137B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB522DF78746608E452D69 /* Pods_Final_Project__GasAtLast_App.framework */,
+				6035FA3EDCAAC55A53DCB315 /* Pods_Final_Project__GasAtLast_AppTests.framework */,
+				E2CD8A1C70DBB1536C7BA240 /* Pods_Final_Project__GasAtLast_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB6B3F0022A9970B00D6E2DE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				BB6B3F2022A9970C00D6E2DE /* Final Project: GasAtLast AppTests */,
 				BB6B3F2B22A9970C00D6E2DE /* Final Project: GasAtLast AppUITests */,
 				BB6B3F0A22A9970B00D6E2DE /* Products */,
+				6F1D3FDE934C6B274244C7D9 /* Pods */,
+				6F76F64BB07AE900DBD3137B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6B3F3122A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast App" */;
 			buildPhases = (
+				FB49D317F2D84D76D246639A /* [CP] Check Pods Manifest.lock */,
 				BB6B3F0522A9970B00D6E2DE /* Sources */,
 				BB6B3F0622A9970B00D6E2DE /* Frameworks */,
 				BB6B3F0722A9970B00D6E2DE /* Resources */,
+				32DBA835ECB4EF4CAD2F9141 /* [CP] Embed Pods Frameworks */,
+				F686BDEE0A27E9E9E6CC3E99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6B3F3422A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppTests" */;
 			buildPhases = (
+				8CED57402C257A6E397D436B /* [CP] Check Pods Manifest.lock */,
 				BB6B3F1922A9970C00D6E2DE /* Sources */,
 				BB6B3F1A22A9970C00D6E2DE /* Frameworks */,
 				BB6B3F1B22A9970C00D6E2DE /* Resources */,
@@ -167,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6B3F3722A9970C00D6E2DE /* Build configuration list for PBXNativeTarget "Final Project: GasAtLast AppUITests" */;
 			buildPhases = (
+				B9F12F62AC29D82E650A8E78 /* [CP] Check Pods Manifest.lock */,
 				BB6B3F2422A9970C00D6E2DE /* Sources */,
 				BB6B3F2522A9970C00D6E2DE /* Frameworks */,
 				BB6B3F2622A9970C00D6E2DE /* Resources */,
@@ -250,6 +296,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32DBA835ECB4EF4CAD2F9141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/TaskQueue/TaskQueue.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaskQueue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CED57402C257A6E397D436B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final Project: GasAtLast AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F12F62AC29D82E650A8E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final Project: GasAtLast AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F686BDEE0A27E9E9E6CC3E99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final Project: GasAtLast App/Pods-Final Project: GasAtLast App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB49D317F2D84D76D246639A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final Project: GasAtLast App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB6B3F0522A9970B00D6E2DE /* Sources */ = {
@@ -430,6 +599,7 @@
 		};
 		BB6B3F3222A9970C00D6E2DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD5C51AADC04601DA89E8A6 /* Pods-Final Project: GasAtLast App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +617,7 @@
 		};
 		BB6B3F3322A9970C00D6E2DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B68E0ABC51A532571AC879 /* Pods-Final Project: GasAtLast App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +635,7 @@
 		};
 		BB6B3F3522A9970C00D6E2DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9053BE1AB5BC75357FF9CCFB /* Pods-Final Project: GasAtLast AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +656,7 @@
 		};
 		BB6B3F3622A9970C00D6E2DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A4E9BB8C46AB6EB5A9CBE5 /* Pods-Final Project: GasAtLast AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +677,7 @@
 		};
 		BB6B3F3822A9970C00D6E2DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CDD1B47F74DE7F5FE83DAE /* Pods-Final Project: GasAtLast AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +697,7 @@
 		};
 		BB6B3F3922A9970C00D6E2DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4F436C98E954D2450A8BC4 /* Pods-Final Project: GasAtLast AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
